@@ -36,3 +36,10 @@ def chat():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+## Chroma Orbit (iOS game)
+
+This repo also contains **Chroma Orbit**, a one-tap arcade game for iOS
+(Swift + SwiftUI + SpriteKit), built for Apple App Store publishing. See
+[`ChromaOrbit/README.md`](ChromaOrbit/README.md) and
+[`ChromaOrbit/GAME_DESIGN.md`](ChromaOrbit/GAME_DESIGN.md).

@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01EE3FD821EE9BDF082E4E5B /* ChromaOrbitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463DB0356D034929798C577 /* ChromaOrbitApp.swift */; };
+		126527FFB42E8DFD51C309C5 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6704D5A28C51759477B06B84 /* GameState.swift */; };
+		7D74B2C1E2D2D2B8C6652382 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C451B4DBE60F38453899 /* GameScene.swift */; };
+		E4E2CF617960360A8AEA8394 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF59E54F3CA76F7C5610C7 /* ContentView.swift */; };
+		3CBD416250DD12901180D79A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7437BEBEFDF218DCB72D88 /* MenuView.swift */; };
+		21198DFEDF4997EC7B6E81A9 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EE4918937C123B3331C302 /* GameOverView.swift */; };
+		225C4C81B436A2F52E91BBE4 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32020B5AD49E0E21F6B1A8DB /* HUDView.swift */; };
+		C3E000EC17A57F27C134DCC7 /* Prism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22217149AD6DED7177223EA0 /* Prism.swift */; };
+		0330A4125FA99FDA3801D670 /* PlayerOrb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FA34B19D063D3C4F5A9773 /* PlayerOrb.swift */; };
+		8680703D6420DD801E057214 /* LevelGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D9C0913B656070D258E735 /* LevelGenerator.swift */; };
+		4C83D1F6CBE18EFA34C833E8 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2840E29446CB8B6A5A240D04 /* ColorTheme.swift */; };
+		2238B3AEC61ED94096BBF4A7 /* Textures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B385EDBA6DDA9EE7B7BD2E8 /* Textures.swift */; };
+		58E3568D3984948D4231E5B8 /* HighScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD2AF812960696F75AA9CE /* HighScoreManager.swift */; };
+		2B1E745EFC700E0D5BA47F64 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9506FD9D42DFDF76D5E82A7 /* HapticsManager.swift */; };
+		581F892413DAEE40B18D44AD /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC62531A99A5F13D7B14581 /* SoundManager.swift */; };
+		DF32F538F5C6C5C3E23EEB9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEB32B977E4278706D77AA7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F463DB0356D034929798C577 /* ChromaOrbitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaOrbitApp.swift; sourceTree = "<group>"; };
+		6704D5A28C51759477B06B84 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		5358C451B4DBE60F38453899 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8BEF59E54F3CA76F7C5610C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C7437BEBEFDF218DCB72D88 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		59EE4918937C123B3331C302 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		32020B5AD49E0E21F6B1A8DB /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		22217149AD6DED7177223EA0 /* Prism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prism.swift; sourceTree = "<group>"; };
+		87FA34B19D063D3C4F5A9773 /* PlayerOrb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerOrb.swift; sourceTree = "<group>"; };
+		B4D9C0913B656070D258E735 /* LevelGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelGenerator.swift; sourceTree = "<group>"; };
+		2840E29446CB8B6A5A240D04 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		1B385EDBA6DDA9EE7B7BD2E8 /* Textures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textures.swift; sourceTree = "<group>"; };
+		B1BD2AF812960696F75AA9CE /* HighScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreManager.swift; sourceTree = "<group>"; };
+		E9506FD9D42DFDF76D5E82A7 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		4DC62531A99A5F13D7B14581 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		5CEB32B977E4278706D77AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		990DB4C81258FC3F4236DF2D /* ChromaOrbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromaOrbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C21E638B178973287D2D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60EA955A0C60A58D7106FF2C = {
+			isa = PBXGroup;
+			children = (
+				303A163AF7CBAD2B006788A0 /* ChromaOrbit */,
+				4B3E98D2622082F5A3C0EAB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3E98D2622082F5A3C0EAB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				990DB4C81258FC3F4236DF2D /* ChromaOrbit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303A163AF7CBAD2B006788A0 /* ChromaOrbit */ = {
+			isa = PBXGroup;
+			children = (
+				F463DB0356D034929798C577 /* ChromaOrbitApp.swift */,
+				5358C451B4DBE60F38453899 /* GameScene.swift */,
+				6704D5A28C51759477B06B84 /* GameState.swift */,
+				B12B3D8DB28A0DFD9FFCF919 /* Views */,
+				C1A0160A06DCF66FB0F1FEC1 /* Models */,
+				ED214CD8726B420445DEFD9E /* Managers */,
+				5CEB32B977E4278706D77AA7 /* Assets.xcassets */,
+			);
+			path = ChromaOrbit;
+			sourceTree = "<group>";
+		};
+		B12B3D8DB28A0DFD9FFCF919 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BEF59E54F3CA76F7C5610C7 /* ContentView.swift */,
+				8C7437BEBEFDF218DCB72D88 /* MenuView.swift */,
+				32020B5AD49E0E21F6B1A8DB /* HUDView.swift */,
+				59EE4918937C123B3331C302 /* GameOverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1A0160A06DCF66FB0F1FEC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22217149AD6DED7177223EA0 /* Prism.swift */,
+				87FA34B19D063D3C4F5A9773 /* PlayerOrb.swift */,
+				B4D9C0913B656070D258E735 /* LevelGenerator.swift */,
+				2840E29446CB8B6A5A240D04 /* ColorTheme.swift */,
+				1B385EDBA6DDA9EE7B7BD2E8 /* Textures.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED214CD8726B420445DEFD9E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD2AF812960696F75AA9CE /* HighScoreManager.swift */,
+				E9506FD9D42DFDF76D5E82A7 /* HapticsManager.swift */,
+				4DC62531A99A5F13D7B14581 /* SoundManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD2803E0F7527ACE4B0BAA06 /* ChromaOrbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D3B828AF79638B1A91616E /* Build configuration list for PBXNativeTarget "ChromaOrbit" */;
+			buildPhases = (
+				1B3C011FBA7E36B698B964D7 /* Sources */,
+				B6C21E638B178973287D2D9F /* Frameworks */,
+				4D41378BB26988894CF4F675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromaOrbit;
+			productName = ChromaOrbit;
+			productReference = 990DB4C81258FC3F4236DF2D /* ChromaOrbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59000EE8A0D0676EA3D8E6CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BD2803E0F7527ACE4B0BAA06 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 48800F602773E5A744CB11A5 /* Build configuration list for PBXProject "ChromaOrbit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60EA955A0C60A58D7106FF2C;
+			productRefGroup = 4B3E98D2622082F5A3C0EAB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2803E0F7527ACE4B0BAA06 /* ChromaOrbit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D41378BB26988894CF4F675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF32F538F5C6C5C3E23EEB9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B3C011FBA7E36B698B964D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EE3FD821EE9BDF082E4E5B /* ChromaOrbitApp.swift in Sources */,
+				126527FFB42E8DFD51C309C5 /* GameState.swift in Sources */,
+				7D74B2C1E2D2D2B8C6652382 /* GameScene.swift in Sources */,
+				E4E2CF617960360A8AEA8394 /* ContentView.swift in Sources */,
+				3CBD416250DD12901180D79A /* MenuView.swift in Sources */,
+				21198DFEDF4997EC7B6E81A9 /* GameOverView.swift in Sources */,
+				225C4C81B436A2F52E91BBE4 /* HUDView.swift in Sources */,
+				C3E000EC17A57F27C134DCC7 /* Prism.swift in Sources */,
+				0330A4125FA99FDA3801D670 /* PlayerOrb.swift in Sources */,
+				8680703D6420DD801E057214 /* LevelGenerator.swift in Sources */,
+				4C83D1F6CBE18EFA34C833E8 /* ColorTheme.swift in Sources */,
+				2238B3AEC61ED94096BBF4A7 /* Textures.swift in Sources */,
+				58E3568D3984948D4231E5B8 /* HighScoreManager.swift in Sources */,
+				2B1E745EFC700E0D5BA47F64 /* HapticsManager.swift in Sources */,
+				581F892413DAEE40B18D44AD /* SoundManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B6BB35ACDD98D0328F922FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CCE0C8446549FC9D0453BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DF29743626C1DF0B1A18FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chroma Orbit";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.chromaorbit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C84AA81CDDDF9022C6A8564B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chroma Orbit";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.chromaorbit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48800F602773E5A744CB11A5 /* Build configuration list for PBXProject "ChromaOrbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BB35ACDD98D0328F922FCB /* Debug */,
+				5CCE0C8446549FC9D0453BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D3B828AF79638B1A91616E /* Build configuration list for PBXNativeTarget "ChromaOrbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF29743626C1DF0B1A18FA1 /* Debug */,
+				C84AA81CDDDF9022C6A8564B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59000EE8A0D0676EA3D8E6CB /* Project object */;
+}
